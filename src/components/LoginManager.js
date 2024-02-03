@@ -1,6 +1,5 @@
 /* ----- Global Imports ----- */ 
 import Link from "next/link";
-//import { NextRequest, NextResponse } from "next/server";
 import { ClerkProvider, UserButton, auth, currentUser, clerkClient, getAuth } from "@clerk/nextjs";
 import { sql } from "@vercel/postgres";
 
@@ -19,7 +18,7 @@ export default async function LoginManager() {
   //HouseKeeping 
   //First Make sure that Clerk isn't storing first names and last names
   //Second make sure that our database username is the same as clerks username.                
-  if(userId) {
+  if(userId && user) {
     const params = { firstName: '', lastName: '' };
     const fixClerkUser = await clerkClient.users.updateUser(userId, params);
     const userName = await sql`SELECT pw9_users.username FROM pw9_users WHERE clerk_user_id = ${userId}`;

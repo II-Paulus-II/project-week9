@@ -2,7 +2,7 @@
 import { ClerkProvider } from "@clerk/nextjs";
 
 /* ----- Project Imports ----- */
-import LoginManager from "@/components/Loginmanager";
+import MainHeader from "@/components/MainHeader";
 import "./globals.css";
 
 export const metadata = {
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
     <html lang="en">
       <body>
-        <LoginManager />
+        <MainHeader />
         {children}
       </body>
     </html>
