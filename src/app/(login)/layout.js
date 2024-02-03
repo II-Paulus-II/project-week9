@@ -2,7 +2,7 @@
 import { ClerkProvider } from "@clerk/nextjs";
 
 /* ----- Project Imports ----- */
-import "./globals.css";
+import "./login.css";
 
 export const metadata = {
   title: "Frenemies",
