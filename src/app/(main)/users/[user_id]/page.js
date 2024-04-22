@@ -4,7 +4,7 @@ import { auth } from "@clerk/nextjs";
 
 /* ----- Project Imports ----- */
 //import DisplayBio from "@/components/displaybio/DisplayBio";
-import EditBio from "@/components/editbio/EditBio";
+//import EditBio from "@/components/editbio/EditBio";
 //import GetPosts from "@/components/getposts/GetPosts";
 //import AddPost from "@/components/addpost/AddPost";
 
