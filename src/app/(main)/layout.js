@@ -2,7 +2,7 @@
 import { ClerkProvider } from "@clerk/nextjs";
 
 /* ----- Project Imports ----- */
-import MainHeader from "@/components/MainHeader";
+import MainHeader from "@/components/mainheader/MainHeader";
 import "./main.css";
 
 export const metadata = {

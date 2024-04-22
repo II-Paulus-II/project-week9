@@ -1,8 +1,8 @@
 
 
 /* ----- Project Imports ----- */
-import Nav from "@/components/Nav";
-import LoginManager from "@/components/LoginManager"
+import Nav from "@/components/nav/Nav";
+import LoginManager from "@/components/loginmanager/LoginManager"
 
 export default function MainHeader() {
 
