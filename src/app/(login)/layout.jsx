@@ -1,7 +1,7 @@
 /* ----- Third Party Imports ----- */ 
 
 /* ----- Project Imports ----- */
-import "@styles/login.css";
+import "@/styles/login.css";
 
 
 export default function RootLayout({ children }) {
