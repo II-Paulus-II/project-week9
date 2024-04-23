@@ -1,5 +1,6 @@
 /* ----- Global Imports ----- */ 
-import { sql } from "@vercel/postgres";
+
+/* ----- Project Imports ----- */
 
 export default async function RecentPage() {
 
