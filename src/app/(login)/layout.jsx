@@ -3,7 +3,6 @@
 /* ----- Project Imports ----- */
 import "@/styles/login.css";
 
-
 export default function RootLayout({ children }) {
 
   return (
