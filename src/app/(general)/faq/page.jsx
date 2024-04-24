@@ -1,3 +1,7 @@
+/* ----- Global Imports ----- */ 
+
+/* ----- Project Imports ----- */
+
 export default function FaqPage() {
   return (
     <div>
