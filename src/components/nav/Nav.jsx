@@ -7,10 +7,10 @@ import "@/components/nav/nav.css";
 export default function Nav() {
   return (
     <nav className="navigation">
-      <Link class="navLinks" href="/" >Home</Link>
-      <Link class="navLinks" href="/faq" >FAQ</Link>
-      <Link class="navLinks" href="/users" >Users</Link>
-      <Link class="navLinks" href="/recent" >Recent</Link>
+      <Link className="navLinks" href="/" >Home</Link>
+      <Link className="navLinks" href="/faq" >FAQ</Link>
+      <Link className="navLinks" href="/users" >Users</Link>
+      <Link className="navLinks" href="/recent" >Recent</Link>
     </nav>
   );
 }

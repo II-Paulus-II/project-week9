@@ -3,14 +3,14 @@
 /* ----- Project Imports ----- */
 import Nav from "@/components/nav/Nav";
 import LoginManager from "@/components/loginmanager/LoginManager"
+import "@/components/generalheader/generalheader.css";
 
 export default function GeneralHeader() {
 
   return (
-    <div className="generalheader" >
-      <LoginManager />
+    <header className="generalHeader" >
       <Nav />
-      <p>This is my general header component.</p>
-    </div>
+      <LoginManager />
+    </header>
   );
 }
