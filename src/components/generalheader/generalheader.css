@@ -3,4 +3,6 @@
   flex-direction: row;
   justify-content: right;
   gap: 2rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
 }
