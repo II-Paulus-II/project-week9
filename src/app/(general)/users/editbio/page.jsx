@@ -2,12 +2,13 @@
 
 /* ----- Project Imports ----- */
 
-function FaqPage() {
+async function EditBioPage() {
+
   return (
     <div>
-      <h2>This is the FAQ Page</h2>
+      <h2>This is the Edit Bio Page</h2>
     </div>
   );
-} 
+}
 
-export default FaqPage;
+export default EditBioPage;

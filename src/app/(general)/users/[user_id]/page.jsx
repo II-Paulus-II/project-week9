@@ -19,10 +19,16 @@ async function UserPage({params}) {
     }
   }
 
+  // Change Structure of Individual User Page 
+  // Display Bio on top
+  // Display Posts next
+  // Conditionally show link to edit posts and bio if it is your page
+
   return (
     <div>
       <h2>This is the Individual Users Page</h2>
       <p>Their Username is {`${thisPageUser.rows[0].username}`}</p>
+      {/* {thisPageUser.rows[0].bio && <p></p> } */}
       {/* {isLoggedInUserPage && <EditBio params={params} />} */}
     </div>
   );

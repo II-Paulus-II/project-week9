@@ -4,7 +4,7 @@ import { sql } from "@vercel/postgres";
 
 /* ----- Project Imports ----- */
 
-export default async function UserPage() {
+async function UserPage() {
   const getUsers = await sql`SELECT pw9_users.id, pw9_users.username FROM pw9_users`;
   
   return (
@@ -21,3 +21,5 @@ export default async function UserPage() {
     </div>
   );
 }
+
+export default UserPage;

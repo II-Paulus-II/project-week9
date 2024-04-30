@@ -1,6 +1,6 @@
 /* ----- Third Party Imports ----- */
 
-export default function HomePage() {
+function HomePage() {
   
   return (
     <>
@@ -9,3 +9,5 @@ export default function HomePage() {
     </>
   );
 }
+
+export default HomePage;
