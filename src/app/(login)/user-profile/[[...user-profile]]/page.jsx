@@ -1,6 +1,8 @@
 /* ----- Third Party Imports ----- */
 import { UserProfile } from "@clerk/nextjs";
 
-export default function Page() {
+function UserProfilePage() {
   return <UserProfile path="/user-profile" routing="path" />;
 }
+
+export default UserProfilePage;

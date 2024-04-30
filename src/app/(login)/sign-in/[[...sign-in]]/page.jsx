@@ -1,6 +1,8 @@
 /* ----- Third Party Imports ----- */
 import { SignIn } from "@clerk/nextjs";
  
-export default function Page() {
+function SignInPage() {
   return <SignIn  signUpUrl="/sign-up" afterSignInUrl="/" />;
 }
+
+export default SignInPage;

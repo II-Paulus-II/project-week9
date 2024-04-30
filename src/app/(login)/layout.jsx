@@ -3,7 +3,7 @@
 /* ----- Project Imports ----- */
 import "@/styles/login.css";
 
-export default function RootLayout({ children }) {
+function LoginLayout({ children }) {
 
   return (
     <>
@@ -13,3 +13,5 @@ export default function RootLayout({ children }) {
     </>
   );
 };
+
+export default LoginLayout;
